@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.nav-conteiner{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+  
+}
+.nav-content{
+    font-size: 30px;
+    font-weight: 400;
+}
+.nav-button span{
+    font-size: 50px;
+    cursor: pointer;
+}
+.hero-container{
+    text-align: center;
+}
+.hero-container h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-family: "Kanit", sans-serif;
+}
+.hero-container p{
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-family: "Roboto Slab", serif;
+}
+.hero-container p span{
+    color: blue;
+}
+.hero-container button{
+  width: 250px;
+  padding:15;
+  font-family: "Roboto Mono", monospace;
+  background-color: white;
+  font-size: 15px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: 2s;
+}
+.hero-container button:hover{
+    background-color:#C2DBF2;
+    color: #0ea322;
+   
+    transition: 3s;
+    transform:rotate(4deg)
+}
+
+/* style product img */
+  /* img container1 */
+.img-container1{
+    display: grid;
+    grid-template-columns: 3fr 5fr 10fr;
+    margin-left: 150px;
+    gap: 10px;
+}
+.img1 img{
+    height: 560px;
+    width: 370px;
+    border-radius: 10px;
+ 
+  
+}
+.img2 img{
+   height: 300px; 
+   width: 380px;
+   border-radius: 10px;
+   background-color: rgb(61, 58, 56);
+}
+.img2 img:hover{
+    color: rgb(58, 55, 55);
+    cursor: pointer;
+    transition: 2s;
+    transform:rotate(10deg)
+ 
+  
+}
+.img3 img{
+    height: 560px;
+    border-radius: 10px;
+ 
+}
+
+/* img contauner 2 */
+ .img-container2{
+    display: grid;
+    grid-template-columns: 5fr 11fr 19fr;
+    margin-top: 20px;
+    margin-left: 150px;
+    gap: 10px;
+    margin-bottom: 150px;
+ }
+ .img4 img{
+    height: 560px;
+    width: auto;
+    border-radius: 10px;
+ }
+ .img5 img{
+    height: 560px;
+    width: auto;
+    border-radius: 10px;
+    margin-top: -270px;
+ }
+ .img6 img{
+    height: 560px;
+    width: auto;
+    border-radius: 10px;
+ }
+ .img7 img{
+ 
+   
+    height: 300px; 
+    width: 380px;
+    border-radius: 10px;
+    margin-top: -130;
+    
+ }
+.img8 img{
+    height: 560px;
+    width: auto;
+    border-radius: 10px;
+    margin-top: -400px;
+}
+.img9 img{
+    height: 560px;
+    width: auto;
+    border-radius: 10px;
+    margin-top: -130px;
+}
+/*  style img container3 */
+.img-container3{
+    display: grid;
+    grid-template-columns: 3fr 5fr 11fr;
+    margin-top: 20px;
+    margin-left: 150px;
+    gap: 10px;
+    margin-bottom: 150px;
+}
+
+/* style img container 4 */
+.img-container4{
+    display: grid;
+    grid-template-columns: 3fr 5fr 11fr;
+    margin-top: 20px;
+    margin-left: 150px;
+    gap: 10px;
+    margin-bottom: 150px;
+}
+.img10 img{
+    height: 560px;
+    width: 380px;
+    border-radius: 10px;
+    margin-top: -400px; 
+}
+.img11 img{
+    height: 440px;
+    width: 380px;
+    border-radius: 10px;
+    margin-top: -400px;
+}
+.img12 img{
+    height: 450px; 
+    width: 380px;
+    border-radius: 10px;
+    margin-top: -130;
+}
+.about-myself-profile{
+    text-align: center;
+    align-items: center;    
+    
+}
+.profile-img img{
+    border-radius: 50%;
+     margin-top: -180px;
+ 
+}
+.about-myself-profile h3{
+    font-family: "Lato", sans-serif;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.about-myself-profile p{
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.about-myself-description{
+    text-align: left;
+     margin-top: 20px;
+     margin-left: 20px;
+}
+.about-myself-button {
+    text-align: center;
+    margin-top: 20px;
+    text-align: center;
+   
+}
+.about-myself-button button{
+    width: 180px;
+    padding: 15px;  
+    cursor: pointer;
+    background-color:#0389FF;
+    margin-top: 10px;
+}
+.about-myself-button button:hover{
+    background-color: black;
+    color: azure;
+   
+
+}
+.arif{
+    background-color:#0389FF;
+    width: 760px;
+    text-align: center;
+    align-items: center;
+    padding: 70px;
+    margin-left: 360px;
+}
+.services-profile{
+   text-align: center;
+   margin-top: 80px;
+}
+.services-profile h3{
+  font-size: 30px;
+  font-family: "Mukta", sans-serif;
+}
+.services-profile p{
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
+    margin-top: 10px;
+}
+/* style curch-section */
+.marketing{
+   align-items: center;
+}
+.marketing img{
+    width: 40px;
+}
+.marketing h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+.marketing p{
+    font-family: "Roboto Mono", monospace;
+    font-size: 18px;
+}
+
+.Photography img{
+    width: 40px;
+}
+.Photography h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+.Photography p{
+    font-family: "Roboto Mono", monospace;
+    font-size: 18px;
+}
+
+.Web-Design img{
+    width: 40px;
+}
+.Web-Design h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+.Web-Design p{
+    font-family: "Roboto Mono", monospace;
+    font-size: 18px;
+}
+.curch-section1{
+    display: grid;
+    grid-template-columns: 10fr 10fr 10fr ;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+/* curch section */
+.App-Development img{
+    width: 40px;
+}
+.App-Development h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+.App-Development p{
+    font-family: "Roboto Mono", monospace;
+    font-size: 18px;
+}
+.Search-Ranking img{
+    width: 40px;
+}
+.Search-Ranking h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+.Search-Ranking p{
+    font-family: "Roboto Mono", monospace;
+    font-size: 18px;
+}
+
+.Branding img{
+    width: 40px;
+}
+.Branding h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+.Branding p{
+    font-family: "Roboto Mono", monospace;
+    font-size: 18px;
+}
+.curch-section2{
+    display: grid;
+    grid-template-columns: 10fr 10fr 10fr ;
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+/* style skill section */
+.my-skill{
+    text-align: center;
+    margin-top: 80px;
+}
+.my-skill h3{
+    font-size: 30px;
+    font-family: "Mukta", sans-serif;
+}
+.my-skill p{
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
+    margin-top: 10px;
+}
